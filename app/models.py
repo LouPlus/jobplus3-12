@@ -167,7 +167,7 @@ class Job(Base):
 	view_count = db.Column(db.Integer, default=0)
 	# 是否正在招聘
 	is_open = db.Column(db.Boolean, default=True)
-	
+
 	def __repr__(self):
 		return "<Job:{}>".format(self.name)
 

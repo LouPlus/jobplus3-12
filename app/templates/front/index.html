@@ -3,6 +3,15 @@
 
 {% block title %}首页{% endblock %}
 
+{% block head %}
+<div class="jumbotron">
+    <div class="container">
+        <h1>JobPlus</h1>
+        <p>互联网求职、招聘平台</p>
+    </div>
+</div>
+{% endblock %}
+
 {% block body %}
 <div class="row">
 	{% for job in pagination.items %}

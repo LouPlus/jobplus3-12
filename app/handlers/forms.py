@@ -97,7 +97,7 @@ class CandidateForm(FlaskForm):
 
 
 class CompanyForm(FlaskForm):
-	"""docstring for CompanyForm"""
+	
 	name = StringField('公司名称', validators=[Required(), Length(1, 128)])
 	city = StringField('地址',validators=[Required(), Length(1,128)])
 	photo = StringField('Logo URL',validators=[Required()])

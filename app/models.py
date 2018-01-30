@@ -130,7 +130,7 @@ class Job(Base):
 
 	# 学历不限
 	EDUCATION_NO_lIMITED = 0
-	# 本科以下
+	# 大专
 	EDUCATION_COLLEGE_BELOW = 10
 	# 本科
 	EDUCATION_COLLEGE = 20
